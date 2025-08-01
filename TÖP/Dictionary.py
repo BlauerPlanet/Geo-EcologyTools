@@ -3,10 +3,10 @@
 
 import pandas as pd
 
-file = pd.read_excel("Multiling IOC 15.1_c.xlsx")
+file = pd.read_excel("TÖP\Multiling IOC 15.1_c.xlsx")
 lex = file[["Order","Family","IOC_15.1","English","German"]]
 lex.set_index('IOC_15.1', inplace=True)
-lex_dict = lex.to_dict(orient="index", index=True)
-print(lex_dict["Tangara velia"])
-
+#lex_dict = lex.to_dict(orient="index", index=True)
+#print(lex_dict["Tangara velia"])
+lex.to_excel("lat-dts.xlsx", header=True)
 #only problem: since it is an World List --> creating dataframe and searching for one species takes around 15 s (on my hardware)
