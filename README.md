@@ -7,7 +7,7 @@
 ### getFieldNames.py (just to have this syntax saved somewhere)
 - extracts and saves field names from active layers on QGIS MapCanvas
 
-## Change_Timesettings_read_Logger [.ahk/.exe] for a course at university)
+## Change_Timesettings_read_Logger [.ahk/.exe] (for a course at university)
 - Autohotkey script that sets the timesettings for windows, so Data from Acclima Loggers can be extracted with correct timestamps
 
 ## Multiling IOC 15.1_c.xlsx and Birdspecies_Dictionary.py (for a course at university)
