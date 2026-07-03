@@ -15,6 +15,6 @@ for f in os.listdir(input_folder):
                 'OUTPUT':f"{path}\{task_item}\{filename}_{task_item}.tif"
             }
 
-            processing.run("native:{task_item}", params)
+            processing.run(f"native:{task_item}", params)
             
             print(f"{task_item} für {filename} sind ermitelt.")
