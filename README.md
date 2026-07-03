@@ -4,6 +4,9 @@
 ### MergerClipper.py (for my Master Thesis)
 - merges Raster Layers active on QGIS MapCanvas and clips the merged Raster by a **selected** feature from a Polygon Layer
 
+### aspect_slope.py (for my Master Thesis)
+- loads raster files from disk and performs processes (in this case aspect and slope raster calculations)
+
 ### getFieldNames.py (just to have this syntax saved somewhere)
 - extracts and saves field names from active layers on QGIS MapCanvas
 
