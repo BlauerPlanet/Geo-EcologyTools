@@ -1,7 +1,7 @@
 # Tools I developed during my study programme or related to Geoecological needs
 
 ## QGIS 
-### MergerClipper.py (for my Master Thesis)
+### MergerClipper.py (for my Master Thesis) --> see github.com/BlauerPlanet/PyQGIS_Scripts
 - merges Raster Layers active on QGIS MapCanvas and clips the merged Raster by a **selected** feature from a Polygon Layer
 
 ### aspect_slope.py (for my Master Thesis)
